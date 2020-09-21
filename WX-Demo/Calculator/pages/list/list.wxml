@@ -1,0 +1,6 @@
+<view class="content">
+  <!-- wx:for是循环数组，wx:for-item即给列表赋别名 -->
+  <block wx:for="{{logs}}" wx:key="index" wx:for-item="log">
+    <view class="item"> {{log}}</view>
+  </block>
+</view>

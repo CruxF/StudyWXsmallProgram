@@ -1,0 +1,30 @@
+<!-- <view class="content">
+  <view class="">
+    <image src="{{movie.images.large}}" mode="aspectFit"></image>
+  </view>
+  <view class="hr"></view>
+  <view class="detail">
+    <text>{{movie.text}}</text>
+  </view>
+  <view class="casts">
+    <block wx:for="{{movie.casts}}" v-key="index">
+      <image src="{{item.avatars.medium}}" mode="aspectFit"></image>
+    </block>
+  </view>
+  <view class="hr"></view>
+  <view class="detail">
+    <text>{{movie.summary}}</text>
+  </view>
+</view> -->
+
+<view class="content">
+  <view class="detail">
+    <text>{{movie.text}}</text>
+  </view>
+  <view class="casts">
+    豆瓣电影接口权限已经发生变更，无法再免费直接调用！
+  </view>
+  <view class="detail">
+    <text>{{movie.summary}}</text>
+  </view>
+</view>

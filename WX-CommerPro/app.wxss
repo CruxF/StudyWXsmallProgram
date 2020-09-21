@@ -1,0 +1,5 @@
+/* page其实就相当于body */
+page {
+  /* 全局字体，并且这个字体只有IOS系统中才有，其他系统中并不支持，如Android和window */
+  font-family: "PingFangSC-Thin";
+}

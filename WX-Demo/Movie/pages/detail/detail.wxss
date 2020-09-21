@@ -1,0 +1,37 @@
+.content {
+  background-color: #3a3a3a;
+  height: 100vh;
+}
+
+.casts {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  height: 136rpx;
+  width: 720rpx;
+  text-align: center;
+  background-color: #fff;
+  padding: 17rpx;
+}
+
+.casts image {
+  width: 180rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+
+.detail {
+  padding-left: 20px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hr {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  opacity: 0.2;
+}

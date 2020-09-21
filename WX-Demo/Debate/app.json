@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/config/config"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#336699",
+    "navigationBarTitleText": "小木学堂辩论赛计时器APP",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#04477C",
+    "list": [
+      {
+        "iconPath": "assets/img/time.png",
+        "selectedIconPath": "assets/img/time-1.png",
+        "pagePath": "pages/index/index",
+        "text": "计时"
+      },
+      {
+        "iconPath": "assets/img/config.png",
+        "selectedIconPath": "assets/img/config-1.png",
+        "pagePath": "pages/config/config",
+        "text": "设置"
+      }
+    ]
+  }
+}

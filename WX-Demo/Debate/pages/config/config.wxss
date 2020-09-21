@@ -1,0 +1,41 @@
+/* pages/config/config.wxss */
+page {
+  background-color: #369;
+  color: white;
+  font-family: '黑体','宋体';
+}
+.section-title {
+  font-size: 20px;
+  background-color: #09c;
+  height: 80rpx;
+  line-height: 80rpx;
+  box-shadow: 1px 1px 2px #B8B8B8;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+.section-title:first-child {
+  margin-top: 0px;
+}
+.pull-right {
+  float: right;
+}
+.voice {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text {
+  display: block;
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.voice label {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.hr {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}

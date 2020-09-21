@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/template/itemtpl"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小木学堂天气APP",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,127 @@
+<!--pages/config/config.wxml-->
+<view class='config'>
+  <!-- 立论阶段 -->
+  <view class='section-title'>
+    立论阶段
+    <switch id='config1' class='pull-right' checked='checked' bindchange='switchChange'></switch>
+  </view>
+  <view class='hr'></view>
+  <view>
+    <text class='text'>时间限制(秒)</text>
+    <slider id='config1' show-value min='10' max='200' block-size="12" bindchange='sliderChange' value='{{configs.config1.time}}'></slider>
+  </view>
+  <view>
+    <text class='text'>声音提醒</text>
+    <radio-group id='config1' class="voice" bindchange="radioChange">
+      <label>
+        <radio value='15' checked='checked'>提前15秒</radio>
+      </label>
+      <label>
+        <radio value='10'>提前10秒</radio>
+      </label>
+      <label>
+        <radio value='5'>提前5秒</radio>
+      </label>
+    </radio-group>
+  </view>
+
+  <!-- 驳立论阶段 -->
+  <view class='section-title'>
+    驳立论阶段
+    <switch id='config2' class='pull-right' checked='checked' bindchange='switchChange'></switch>
+  </view>
+  <view class='hr'></view>
+  <view>
+    <text class='text'>时间限制(秒)</text>
+    <slider id='config2' show-value min='10' max='200' block-size="12" bindchange='sliderChange' value='{{configs.config2.time}}'></slider>
+  </view>
+  <view>
+    <text class='text'>声音提醒</text>
+    <radio-group id='config2' class="voice" bindchange="radioChange">
+      <label>
+        <radio value='15' checked='checked'>提前15秒</radio>
+      </label>
+      <label>
+        <radio value='10'>提前10秒</radio>
+      </label>
+      <label>
+        <radio value='5'>提前5秒</radio>
+      </label>
+    </radio-group>
+  </view>
+
+  <!-- 质辩环节 -->
+  <view class='section-title'>
+    质辩环节
+    <switch id='config3' class='pull-right' checked='checked' bindchange='switchChange'></switch>
+  </view>
+  <view class='hr'></view>
+  <view>
+    <text class='text'>时间限制(秒)</text>
+    <slider id='config3' show-value min='10' max='200' block-size="12" bindchange='sliderChange' value='{{configs.config3.time}}'></slider>
+  </view>
+  <view>
+    <text class='text'>声音提醒</text>
+    <radio-group id='config3' class="voice" bindchange="radioChange">
+      <label>
+        <radio value='15' checked='checked'>提前15秒</radio>
+      </label>
+      <label>
+        <radio value='10'>提前10秒</radio>
+      </label>
+      <label>
+        <radio value='5'>提前5秒</radio>
+      </label>
+    </radio-group>
+  </view>
+
+  <!-- 自由辩论 -->
+  <view class='section-title'>
+    自由辩论
+    <switch id='config4' class='pull-right' checked='checked' bindchange='switchChange'></switch>
+  </view>
+  <view class='hr'></view>
+  <view>
+    <text class='text'>时间限制(秒)</text>
+    <slider id='config4' show-value min='10' max='200' block-size="12" bindchange='sliderChange' value='{{configs.config4.time}}'></slider>
+  </view>
+  <view>
+    <text class='text'>声音提醒</text>
+    <radio-group id='config4' class="voice" bindchange="radioChange">
+      <label>
+        <radio value='15' checked='checked'>提前15秒</radio>
+      </label>
+      <label>
+        <radio value='10'>提前10秒</radio>
+      </label>
+      <label>
+        <radio value='5'>提前5秒</radio>
+      </label>
+    </radio-group>
+  </view>
+
+  <!-- 总结陈词 -->
+  <view class='section-title'>
+    总结陈词
+    <switch id='config5' class='pull-right' checked='checked' bindchange='switchChange'></switch>
+  </view>
+  <view class='hr'></view>
+  <view>
+    <text class='text'>时间限制(秒)</text>
+    <slider id='config5' show-value min='10' max='200' block-size="12" bindchange='sliderChange' value='{{configs.config5.time}}'></slider>
+  </view>
+  <view>
+    <text class='text'>声音提醒</text>
+    <radio-group id='config5' class="voice" bindchange="radioChange">
+      <label>
+        <radio value='15' checked='checked'>提前15秒</radio>
+      </label>
+      <label>
+        <radio value='10'>提前10秒</radio>
+      </label>
+      <label>
+        <radio value='5'>提前5秒</radio>
+      </label>
+    </radio-group>
+  </view>
+</view>

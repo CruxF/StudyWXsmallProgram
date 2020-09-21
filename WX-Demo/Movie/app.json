@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#2B2B2B",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "iconPath": "pages/assets/img/dy-1.png",
+        "selectedIconPath": "pages/assets/img/dy.png",
+        "text": "影院热映"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "iconPath": "pages/assets/img/tj-1.png",
+        "selectedIconPath": "pages/assets/img/tj.png",
+        "text": "电影推荐"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "pages/assets/img/search-1.png",
+        "selectedIconPath": "pages/assets/img/search.png",
+        "text": "查询电影"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2B2B2B",
+    "navigationBarTitleText": "小木学堂电影APP",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,36 @@
+<view class='assess-pages'>
+  <view class='wrapper-item'>
+    <view class='title-img'>
+      <image src='/images/doctorInfo.jpg'></image>
+    </view>
+    <view class='main-info'>
+      <view class='info-header'>
+        <view class='name-desc'>
+          <view class='info-name'>铁打老药师</view>
+          <view class='info-desc'>主任医师·院长</view>
+        </view>
+        <view class='reser-time'>
+          <text>上次出诊时间：3个月前</text>
+        </view>
+      </view>
+      <view class='info-bottom'>
+        <text class='info-hospital'><text class='icon icon-hospital'></text>南方医科大</text>
+        <text class='info-team'><text class='icon icon-team'></text>老年痴呆症</text>
+      </view>
+    </view>
+  </view>
+  <view class='assess-body'>
+    <view class='assess-title'>您对本次的医生服务满意吗？</view>
+    <view class='assess-star'>
+      <view class='star-wrap'>
+        <view class='star-item' wx:for="{{stars}}" wx:key="" style='background:url("{{item.flag==1?item.lightImg:item.blackImg}}") no-repeat top;background-size:100%;' data-index="{{index}}" bindtap='starClick'></view>
+      </view>
+      <view class='star-desc'>{{starDesc}}</view>
+    </view>
+    <view class='assess-list'>
+      <view class='item-assess' wx:for="{{assessLists}}" wx:key="">{{item}}</view>
+    </view>
+    <textarea maxlength="-1" placeholder='非常满意医生的回复' placeholder-class='place-assess'></textarea>
+  </view>
+  <view class='assess-submint'>提交评价</view>
+</view>

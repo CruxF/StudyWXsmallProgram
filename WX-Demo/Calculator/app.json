@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/cal/cal",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#black",
+    "navigationBarTitleText": "小木学堂计数器",
+    "navigationBarTextStyle": "black"
+  }
+}

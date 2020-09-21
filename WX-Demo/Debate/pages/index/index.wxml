@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="title" bindtap='showAction'>
+  <text class='pull-left'>{{'<<'}}</text> {{title}}
+  <text class='pull-right'>{{'>>'}}</text>
+</view>
+
+<!-- 动画区域 -->
+<view class='time'>
+  <!-- 左边大圆 -->
+  <view class='big-circle blue first'></view>
+  <!-- 左边翻滚半圆 -->
+  <view animation="{{leftAnimationData}}" class='big-circle right blue1 first'></view>
+  <!-- 左边白色小圆 -->
+  <view class='circle white first'><text>{{leftTime}}s</text></view>
+
+  <!-- 右边大圆 -->
+  <view class='big-circle blue second'></view>
+  <!-- 右边翻滚半圆 -->
+  <view animation="{{rightAnimationData}}" class='big-circle right blue1 second'></view>
+  <!-- 右边白色小圆 -->
+  <view class='circle white second'><text>{{rightTime}}s</text></view>
+</view>
+<!-- 按钮区域 -->
+<view class='btnGroup'>
+  <button class='btn' bindtap='leftStart'>正方发言</button>
+  <button class='btn' bindtap='rightStart'>反方发言</button>
+</view>
+
+<view class='desc'>
+  <text>
+    {{desc}}
+  </text>
+</view>

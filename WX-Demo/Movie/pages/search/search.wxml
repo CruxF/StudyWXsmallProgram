@@ -1,0 +1,39 @@
+<!-- <view class="content">
+  <view class="search">
+    <input class="input" bindinput="bindKeyInput" />
+    <button bindtap="search" hover-class="btnClick">查询</button>
+  </view>
+  <text class="inputShow">你要搜索：{{inputVal}}</text>
+  <view class="hr"></view>
+  <import src="../template/movietpl" />
+  <template is="movies" data="{{movies}}" />
+</view>
+
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>
+<modal title="小提示" confirm-text="知道啦" hidden="{{modalHidden}}" no-cancel="true" bindconfirm="hideModal">
+  请输入需要查询的关键词，如：天下无贼
+</modal> -->
+
+<view class="content">
+  <view class="search">
+    <input class="input" bindinput="bindKeyInput" />
+    <button bindtap="search" hover-class="btnClick">查询</button>
+  </view>
+  <text class="inputShow">你要搜索：{{inputVal}}</text>
+</view>
+
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>
+<modal title="小提示" confirm-text="知道啦" hidden="{{modalHidden}}" no-cancel="true" bindconfirm="hideModal">
+  请输入需要查询的关键词，如：天下无贼
+</modal>
+<modal title="小提示" confirm-text="知道啦" hidden="{{modalHiddenOne}}" no-cancel="true" bindconfirm="hideModalOne">
+  豆瓣电影API不再免费提供~
+</modal>
